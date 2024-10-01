@@ -19,7 +19,6 @@ const HomeComponent = () => {
           <div className="flex flex-row">
             <div className="basis-1/3 flex justify-start items-center">
               <HashLink to="/#info" className="px-3"><FontAwesomeIcon icon={['fas', 'id-card']} size="xl" /></HashLink>
-              {/* <HashLink to="/#career"><FontAwesomeIcon icon={['fas', 'briefcase']} size="xl" /></HashLink> */}
             </div>
             <div className="basis-1/3 flex justify-center items-center">
               <HashLink to="/#info"><FontAwesomeIcon icon={['fas', 'angles-down']} size="2xl" /></HashLink>

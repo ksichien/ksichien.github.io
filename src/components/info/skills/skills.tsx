@@ -13,7 +13,7 @@ const SkillsComponent = () => {
   const technologies: string[] = [
     'AWS, Azure',
     'Hyper-V, VMware ESXi',
-    'Bind, Grafana, Prometheus',
+    'Grafana, Prometheus, Graylog',
     'Active Directory, Office 365',
     'Jamf Pro',
     'Ansible, Docker, Terraform',

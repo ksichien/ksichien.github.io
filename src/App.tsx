@@ -2,7 +2,6 @@ import './App.css'
 import { Routes, Route } from 'react-router-dom'
 import HomeComponent from './components/home/home'
 import InfoComponent from './components/info/info'
-import CareerComponent from './components/career/career'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
@@ -20,9 +19,6 @@ const App = () => {
         <Routes>
           <Route path="/" element={<InfoComponent />} />
         </Routes>
-        {/* <Routes>
-          <Route path="/" element={<CareerComponent />} />
-        </Routes> */}
       </main>
     </div>
   );
