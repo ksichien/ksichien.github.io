@@ -31,7 +31,7 @@ const SkillsComponent = () => {
   return (
       <section className="flex flex-col h-full text-center text-neutral-300">
         <h3 className="text-3xl text-bold py-3">Skills</h3>
-        <div className="flex flex-col align-center justify-center">
+        <div className="flex flex-col align-center justify-center md:text-base text-sm">
           {columns}
         </div>
       </section>
