@@ -25,7 +25,8 @@ const HomeComponent = () => {
             </div>
             <div className="basis-1/3 flex justify-end items-center">
               <HashLink to="https://github.com/ksichien"><FontAwesomeIcon icon={['fab', 'github']} size="xl" /></HashLink>
-              <HashLink to="https://linkedin.com/in/ksichien" className="px-3"><FontAwesomeIcon icon={['fab', 'linkedin']} size="xl" /></HashLink>
+              <HashLink to="https://gitlab.com/ksichien" className="px-3"><FontAwesomeIcon icon={['fab', 'gitlab']} size="xl" /></HashLink>
+              <HashLink to="https://linkedin.com/in/ksichien" className="pr-3"><FontAwesomeIcon icon={['fab', 'linkedin']} size="xl" /></HashLink>
             </div>
           </div>
         </div>

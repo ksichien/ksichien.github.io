@@ -72,7 +72,7 @@ export default function ParticleComponent() {
           direction: MoveDirection.none,
           enable: true,
           outModes: {
-            default: OutMode.out,
+            default: OutMode.bounce,
           },
           random: false,
           speed: 1,
